@@ -1,0 +1,28 @@
+{
+  "driver": {
+    "browser": "chrome",
+    "remote_url": "",
+    "wait_time": 15,
+    "page_load_wait_time": 5,
+    "options": [
+      "ignore-certificate-errors",
+      "--no-sandbox",
+      "disable-infobars"
+    ],
+    "capabilities": {},
+    "version": "latest",
+    "experimental_options": [],
+    "extension_paths": [],
+    "webdriver_kwargs": {},
+    "local_path": ""
+  },
+  "logging": {
+    "screenshots_on": true
+  },
+  "viewport": {
+    "maximize": true,
+    "width": 1440,
+    "height": 900,
+    "orientation": "portrait"
+  }
+}
